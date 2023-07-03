@@ -17,7 +17,7 @@ You need to perform two more steps:-
     Click on the "Add Subnet to Wallet" button. This will automatically add the network of the Fuji testnet of AVAX to your MetaMask.
     Go to the Remix - Ethereum IDE Web browser, ensure you have pasted the code from the Solidity code. Then, open MetaMask from that tab, click on the three dots near the account address, select "Manually connect to current site," choose the default account address, and click "Connect." This will connect you to Remix. Before doing this, ensure that in the Remix - Ethereum IDE Web browser, in the Deploy & Run Transactions box, you have selected "Injected Provider - MetaMask" as the environment for successful connection. You will see a string "Custom (43113) network" near the Injected Provider, which means you are successfully connected!
 
-Now let's Deploy our ERC20 smart contract on SnowTrace. Here is the URL: https://testnet.snowtrace.io/. On the top of the box, you will see a "Testnet" option in red. Click on that and choose "Avalanche Fuji Testnet."
+Now let's Deploy our ERC20 smart contract on SnowTrace. Here is the URL: https://testnet.snowtrace.io/. On the top of the box, you will see a "Testnet" option in red color. Click on that and choose "Avalanche Fuji Testnet."
 
 In the Remix - Ethereum IDE Web browser, make sure you deploy the smart contract and copy the deployed contract address. Then, go back to the SnowTrace website. Inside the website, you will see "Avalanche C-Chain Testnet Explorer" down below the box. Paste the address there to view all the details. Go back to the smart contract, try the functions, and activate them. It will ask for confirmation. Confirm the transaction for successful execution. Then, refresh the SnowTrace website to view the details.
 
