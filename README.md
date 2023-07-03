@@ -42,6 +42,9 @@ contract DegenToken is ERC20, Ownable {
     }
 }
 ```
+## Demo Video
+Here is the URL: https://www.loom.com/share/3ee526e7b5264e73890ef0ee93e670b9?sid=71e61a51-c553-4594-8b49-cac372a8e346
+
 
 ## Authors
 
