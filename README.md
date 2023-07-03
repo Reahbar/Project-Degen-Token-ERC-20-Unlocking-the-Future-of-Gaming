@@ -46,8 +46,7 @@ contract DegenToken is ERC20, Ownable {
 ## Authors
 
 Reahbar 
-[@metacraftersio](https://twitter.com/metacraftersio)]([https://github.com/Reahbar)](https://github.com/Reahbar](https://github.com/Reahbar/Project-Degen-Token-ERC-20-Unlocking-the-Future-of-Gaming.git)https://github.com/Reahbar/Project-Degen-Token-ERC-20-Unlocking-the-Future-of-Gaming.git)
-
+[@metacraftersio](https://twitter.com/metacraftersio)] https://github.com/Reahbar/Project-Degen-Token-ERC-20-Unlocking-the-Future-of-Gaming.git
 
 ## License
 
