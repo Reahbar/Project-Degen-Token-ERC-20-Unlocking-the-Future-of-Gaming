@@ -28,55 +28,19 @@ First, in the Remix - Ethereum IDE Web browser, choose the contract you copied t
 
 ```javascript
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.18;
 
-contract MyToken {
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
-    
-    string private name;
-    string private symbol;
-    address private owner;
+contract DegenToken is ERC20, Ownable {
 
-   constructor(string memory _name, string memory _symbol) {
-        name = _name;
-        symbol = _symbol;
-        owner = msg.sender;
-    }
+    constructor() ERC20("Degen", "DGN") {}
 
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Only the owner can call this function!.");
-        _;
-    }
-
-    mapping (address => uint) balance;
-
-    event Mint (address indexed account, uint256 NumberOfTokens);
-    event Burn (address indexed account, uint256 NumberOfTokens);
-    event Transfer (address indexed account, address indexed to, uint256 NumberOfTokens);
-
-    function mint(address to, uint256 amount) external onlyOwner {
-        emit Mint (to, amount);
-        balance [to] +=( amount);
-    }
-
-   function burn(uint256 amount) external {
-        emit Burn (msg.sender, amount);
-        balance[msg.sender] -= amount;
-    }
-
-    function transfer (address to, uint256 amount) external {
-        require (balance [msg.sender] >0,"Your current balance should be greater than 0");
-        emit Transfer (msg.sender, to, amount);
-        balance [msg.sender] -= amount;
-        balance [to] += amount;
-    }
-
-    function balanceOf (address account) external view returns (uint) {
-        return balance [account];
+        function mint(address to, uint256 amount) public onlyOwner {
+            _mint(to, amount);
     }
 }
-
-
 ```
 
 ## Authors
