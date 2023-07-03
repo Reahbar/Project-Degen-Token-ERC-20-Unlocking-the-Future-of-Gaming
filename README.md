@@ -19,7 +19,7 @@ You need to perform two more steps:-
 
 Now let's Deploy our ERC20 smart contract on SnowTrace. Here is the URL: https://testnet.snowtrace.io/. On the top of the box, you will see a "Testnet" option in red color. Click on that and choose "Avalanche Fuji Testnet."
 
-In the Remix - Ethereum IDE Web browser, make sure you deploy the smart contract and copy the deployed contract address. Then, go back to the SnowTrace website. Inside the website, you will see "Avalanche C-Chain Testnet Explorer" down below the box. Paste the address there to view all the details. Go back to the smart contract, try the functions, and activate them. It will ask for confirmation. Confirm the transaction for successful execution. Then, refresh the SnowTrace website to view the details.
+In the Remix - Ethereum IDE Web browser, make sure you deploy the smart contract and copy the deployed contract address. Then, go back to the SnowTrace website. Inside the website, you will see "Avalanche C-Chain Testnet Explorer" down below the box. Paste the address adn then click on the search icon then there you can view all the details. Go back to the smart contract, try the functions, and activate them. It will ask for confirmation. Confirm the transaction for successful execution. Then, refresh the SnowTrace website to view the details.
 
 Now let's Verify our ERC20 smart contract!
 
