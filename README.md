@@ -1,6 +1,6 @@
 # Project: Create and Mint Token
 
-"In this project, we will create an ERC20 smart contract using the "Solidity" programming language. The purpose of this project is to serve as a starting point for beginners who want to learn about creating ERC20 smart contracts, minting tokens, and understanding how to access other functions within a smart contract
+In this project, we will create an ERC20 smart contract using the "Solidity" programming language. The purpose of this project is to serve as a starting point for beginners who want to learn about creating ERC20 smart contracts, minting tokens, and understanding how to access other functions within a smart contract.
 
 ## Getting Started
 
